@@ -153,7 +153,7 @@ if user_menu == 'Analyse Athletes':
 
     fig = ff.create_distplot(x, name, show_hist=False, show_rug=False)
     fig.update_layout(autosize=False, width=1000, height=600)
-    st.title("Distribution of Age wrt Sports(Gold Medalist)")
+    st.title("Distribution of Age by Sports(Gold Medalist)")
     st.plotly_chart(fig)
 
     sport_list = df['Sport'].unique().tolist()
