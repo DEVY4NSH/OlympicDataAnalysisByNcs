@@ -175,6 +175,6 @@ if user_menu == 'Analyse Athletes':
 
 
 footer_html = """<div style='position: fixed; bottom: 0; width: 15%; text-align: center;'>
-<p>Developed by <a href = 'https://ncsportfolio-divyansh-s-projects-89fff625.vercel.app/'>Divyansh</a></p>
+<p>Developed by <a href = '/'>Divyansh</a></p>
 </div>"""
 st.sidebar.markdown(footer_html, unsafe_allow_html=True)
